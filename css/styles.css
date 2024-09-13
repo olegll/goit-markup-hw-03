@@ -40,7 +40,7 @@ a:focus {
   margin: 0 auto;
 }
 
-img: {
+img {
   display: block;
 }
 
@@ -117,8 +117,7 @@ img: {
 }
 
 .general-container {
-  padding-top: 188px;
-  padding-bottom: 188px;
+padding: 188px 0 188px
 }
 
 .title-text {
