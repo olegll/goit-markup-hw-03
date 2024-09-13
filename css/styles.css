@@ -39,6 +39,11 @@ a:focus {
   padding: 0 15px;
   margin: 0 auto;
 }
+
+img: {
+  display: block;
+}
+
 /*===================header===============*/
 .page-header {
   border-bottom: 1px solid #e7e9fc;
@@ -111,6 +116,11 @@ a:focus {
   background: #2e2f42;
 }
 
+.general-container {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .title-text {
   font-weight: 700;
   font-size: 56px;
@@ -120,7 +130,7 @@ a:focus {
   color: #fff;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
+
   margin-bottom: 48px;
 }
 
@@ -135,11 +145,11 @@ a:focus {
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
-}
-.btn-container {
-  display: flex;
-  padding-bottom: 188px;
-  justify-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 169px;
+  height: 56px;
 }
 
 .title-button:hover,
@@ -293,8 +303,7 @@ a:focus {
 /*==============footer section==========*/
 
 .footer-container {
-    padding-top: 100px;
-
+  padding-top: 100px;
 }
 
 .dawn-logo {
@@ -305,13 +314,12 @@ a:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-display: flex;
-margin-bottom: 16px;
+  display: flex;
+  margin-bottom: 16px;
 }
 
 .half-dawn-logo {
   color: #f4f4fd;
-  
 }
 
 .dawn-text {
