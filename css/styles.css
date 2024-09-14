@@ -167,11 +167,13 @@ padding: 188px 0 188px;
   overflow: hidden;
 }
 
+.section-avant {
+    padding: 120px 0;
+}
+
 .all-avant {
   display: flex;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  column-gap: 24px;
+ gap: 24px;
 }
 
 .all-avant-item {
@@ -197,6 +199,7 @@ padding: 188px 0 188px;
 /*==============team section===========*/
 .team-section {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .team-card {
@@ -217,14 +220,14 @@ padding: 188px 0 188px;
   text-transform: capitalize;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 120px;
+  
   margin-bottom: 72px;
 }
 
 .team-all {
   display: flex;
-  padding-bottom: 120px;
-  column-gap: 24px;
+  
+  gap: 24px;
 }
 
 .card-worker {
@@ -252,6 +255,12 @@ padding: 188px 0 188px;
   
 }
 /*=========portfolio section===============*/
+
+.port-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
 .port-section-title {
   font-weight: 700;
   font-size: 36px;
@@ -263,14 +272,16 @@ padding: 188px 0 188px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 72px;
-  padding-top: 120px;
+  
 }
+
+
 
 .port-menu {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
-  padding-bottom: 120px;
+  
 }
 
 .port-menu-item {
@@ -304,9 +315,7 @@ padding: 188px 0 188px;
 }
 /*==============footer section==========*/
 
-.footer-container {
-  padding-top: 100px;
-}
+
 
 .dawn-logo {
   font-family: "Raleway", sans-serif;
@@ -331,11 +340,12 @@ padding: 188px 0 188px;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  padding-bottom: 100px;
+  
 }
 
 .section-dawn {
   background: #2e2f42;
+  padding: 100px 0;
 }
 
 .half-dawn-logo:hover,
