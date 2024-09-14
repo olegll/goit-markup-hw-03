@@ -114,9 +114,6 @@ img {
 /*==================general section=============*/
 .general-section {
   background: #2e2f42;
-}
-
-.general-container {
 padding: 188px 0 188px;
 }
 
@@ -319,7 +316,7 @@ padding: 188px 0 188px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: flex;
+  display:inline-block;
   margin-bottom: 16px;
 }
 
